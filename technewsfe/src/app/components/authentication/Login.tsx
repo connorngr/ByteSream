@@ -66,20 +66,6 @@ export default function LoginPage() {
             />
           </div>
           <div className="flex items-center justify-between mt-5">
-            <div className="flex items-center">
-              <input
-                id="remember-me"
-                name="remember-me"
-                type="checkbox"
-                checked={rememberMe}
-                onChange={(e) => setRememberMe(e.target.checked)}
-                className="h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded"
-              />
-              <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-700">
-                Remember me
-              </label>
-            </div>
-
             <div className="text-sm">
               <Link href="/forgot-password" className="font-medium text-primary hover:text-primary">
                 Forgot your password?
