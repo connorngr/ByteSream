@@ -32,11 +32,6 @@ export default function Newsletter() {
                             >
                                 Subscribe
                             </button>
-                        </div>
-                        <div className="text-red-500 text-sm mt-2 h-5">
-                        </div>
-                        <div className="text-green-500 text-sm mt-2 h-5">
-                        </div>
                     </form>
                 </div>
             </div>
